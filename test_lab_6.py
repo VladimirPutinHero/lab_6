@@ -13,11 +13,11 @@ class TestLinkedList(unittest.TestCase):
 
     def test_sort_list(self):
         llist = LinkedList()
-        llist.append(3)
+        llist.append(9)
         llist.append(1)
         llist.append(2)
         llist.sort_list()
-        self.assertEqual(str(llist), "1 2 3 ")
+        self.assertEqual(str(llist), "1 2 9 ")
 
 
 if __name__ == '__main__':
